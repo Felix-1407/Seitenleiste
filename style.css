@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+
+body{
+    height: 1080px;
+    width: 1920px;
+    overflow: hidden;
+    overflow-y: hidden;
+    margin-left: 132px;
+    margin-top: 0px;
+    
+    transform-origin: top left;
+    transform: rotate(90deg);
+  }
+  
+#app{
+    position: absolute;
+    margin-top: 63.5;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    opacity: 0.2;
+  }
+
+
+#barnew{
+    position: absolute;
+    background-image: linear-gradient(to bottom,  rgb(0, 0, 0), rgb(0, 0, 0));
+    transition: opacity .5s ease-in-out;
+    opacity: 0;
+    margin-bottom: 0%;
+    height: 132px;
+    width: 1080px;
+}
+
+#barold{
+    position: absolute;
+    opacity: 1;
+    background-image: linear-gradient(to bottom,  rgb(0, 0, 0), rgb(36, 14, 14));
+    margin-bottom: 0%;
+    height: 132px;
+    width: 1080px;
+}
