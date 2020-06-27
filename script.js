@@ -26,7 +26,7 @@ setTimeout(() => {
 }, 2000);
 
 
-/* Init tmi.js */;
+/* Init tmi.js */
 const client = new tmi.Client({
 	options: { debug: true },
 	connection: {
@@ -64,7 +64,7 @@ client.on("message", (channel, userstate, message, self) => {
                         console.log("Voller Command");
                         start(game)
                         }
-                    };
+                    }
             break;
         default:
             // Something else ? nope lol
@@ -105,7 +105,7 @@ function start(game){
             colorarray = ["#2f004a", "#09004a", "#00234a", "#003e4a", "#004a3a", "#004a1f", "#144a00", "#354a00", "#4a4900", "#4a3300", "#4a1b00", "#4a0000"];
             color = colorarray[Math.floor(Math.random() * colorarray.length)];
             break;
-    };
+    }
 
 
 
